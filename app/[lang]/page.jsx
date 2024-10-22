@@ -1,7 +1,7 @@
 import Link from 'next/link'
-import RootLayout from './layout'
 import { getDictionary } from './dictionaries'
-import { ThemeProvider } from '../contexts/ThemeContext'
+import RootLayout from './layout'
+import ChangeThemeToggler from '../components/ChangeThemeToggler'
 
 const Main = async ({ params: { lang } }) => {
 
@@ -10,6 +10,8 @@ const Main = async ({ params: { lang } }) => {
   return (
 
     <div>
+
+      <ChangeThemeToggler></ChangeThemeToggler>
 
       <Link href={"fa"} >fa</Link>
       <br />

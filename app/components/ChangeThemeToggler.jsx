@@ -11,7 +11,6 @@ function ChangeThemeToggler() {
 
 	return (
 		<div>
-			{t("Next.js i18n Demo")}
 			<label className="swap swap-rotate space-x-4">
 			{/* swap class works based on checkbox checked condition 
 				if checkbox is checked swap on will shown and if not checked
