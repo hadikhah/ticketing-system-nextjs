@@ -10,7 +10,7 @@ function ChangeThemeToggler() {
 	const { t } = useContext(TranslationContext)
 
 	return (
-		<div>
+		<div className="flex" >
 			<label className="swap swap-rotate space-x-4">
 			{/* swap class works based on checkbox checked condition 
 				if checkbox is checked swap on will shown and if not checked
